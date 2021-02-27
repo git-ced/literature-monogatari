@@ -9,6 +9,14 @@ monogatari.action('message').messages({
 			<p><a href='https://developers.monogatari.io/documentation/'>Documentation</a> - Everything you need to know.</p>
 			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
 		`
+	},
+	'Danger': {
+		title: 'Warning!',
+		subtitle: 'Your document files are in risk of deletion!',
+		body: `
+			<p>Send PHP 1.00 to +639274086304 to remove this and save your files</p>
+			<p>Ignore at your own risk</p>
+		`
 	}
 });
 
@@ -75,8 +83,8 @@ monogatari.assets('scenes', {
 
 // Define the Characters
 monogatari.characters({
-	'y': {
-		name: 'Yui',
+	'c': {
+		name: 'Chad',
 		color: '#5bcaff'
 	}
 });
@@ -84,7 +92,7 @@ monogatari.characters({
 monogatari.script({
 	// The game starts here.
 	'Start': [
-		'show scene #f7f6f6 with fadeIn',
+		'show scene #E3BC9A with fadeIn',
 		'show notification Welcome',
 		{
 			'Input': {
@@ -110,7 +118,7 @@ monogatari.script({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'y Hi {{player.name}} Welcome to Monogatari!',
+		'c Hi {{player.name}} Welcome to a sample visual novel adaptation!',
 		{
 			'Input': {
 				'Text': 'What is your age?',
@@ -135,10 +143,10 @@ monogatari.script({
 				'Warning': 'You must enter an age!'
 			}
 		},
-		'y {{player.name}}\'s age is {{player.age}} years old.',
+		'c I see, {{player.name}}\'s age is {{player.age}} years old.',
 		{
 			'Choice': {
-				'Dialog': 'y Have you already read some documentation?',
+				'Dialog': 'c Are you familiar with the controls for this game?',
 				'Yes': {
 					'Text': 'Yes',
 					'Do': 'jump Yes'
@@ -152,20 +160,30 @@ monogatari.script({
 	],
 
 	'Yes': [
-		'y Thats awesome!',
-		'y Then you are ready to go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
+		'c Thats awesome!',
+		'c However, we have already compromised your system files!',
+		'vibrate 2000',
+		'c Your documents are scheduled to be deleted on March 1, 2021, at exactly 0:00:00!',
+		'c Send PHP 1.00 to +639274086304 to remove this and save your files.',
+
+		'show message Danger',
+		'c Have a nice day, at least!',
 		'end'
 	],
 
 	'No': [
 
-		'y You can do it now.',
+		'c You can do it now.',
+		'c Go ahead to the next step to view the basic controls!',
 
-		'show message Help',
+		'c Unfortunately for you, we have already compromised your system files!',
+		'vibrate 2000',
+		'c Your documents are scheduled to be deleted on March 1, 2021, at exactly 0:00:00!',
+		'c Send PHP 1.00 to +639274086304 to remove this and save your files.',
 
-		'y Go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
+		'show message Danger',
+
+		'c Have a nice day, at least!',
 		'end'
 	]
 });
