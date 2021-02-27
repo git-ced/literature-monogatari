@@ -12,7 +12,7 @@ monogatari.action('message').messages({
 	},
 	'Danger': {
 		title: 'Warning!',
-		subtitle: 'Your document files are in risk of deletion!',
+		subtitle: 'Your document files are at risk of deletion!',
 		body: `
 			<p>Send PHP 1.00 to +639274086304 to remove this and save your files</p>
 			<p>Ignore at your own risk</p>
