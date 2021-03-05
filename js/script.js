@@ -530,6 +530,8 @@ monogatari.script({
 
 	'Scene-23': [
 		'show scene scene-23',
+		'a Continuing on his journey, he came across with another adult. A lone man on his planet whose hobby and desire is to collect stars.',
+		'l "The man spouted numbers and calculations to me while I stood in front of him"',
 		'jump Scene-24',
 	],
 
