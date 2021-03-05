@@ -140,10 +140,10 @@ monogatari.preferences({
 
 	// Initial Volumes from 0.0 to 1.
 	'Volume': {
-		'Music': 0.1,
-		'Voice': 0.1,
-		'Sound': 0.1,
-		'Video': 0.1
+		'Music': 1,
+		'Voice': 1,
+		'Sound': 1,
+		'Video': 1
 	},
 
 	// Initial resolution used for Electron, it must match the settings inside

@@ -231,8 +231,8 @@ monogatari.assets('images', {
 monogatari.script({
 	// The game starts here.
 	'Start': [
-		'play music main with loop fade 20 volume 50',
-		'show scene #0E0A14 with fadeIn',
+		'play music main with loop fade 20 volume 10',
+		'show scene #0E0A14',
 		'show particles fireflies',
 		'show notification Welcome',
 		'c Hello there dear player!',
@@ -282,14 +282,14 @@ monogatari.script({
 
 	'Scene-1': [
 		'hide particles',
-		'show scene scene-1 with fadeIn',
+		'show scene scene-1',
 		'a When I was still little, I believed that a snake can swallow a whole elephant.',
 		'a Unbelievable right?',
 		'jump Scene-2',
 	],
 
 	'Scene-2': [
-		'show scene scene-2 with fadeIn',
+		'show scene scene-2',
 		{
 			'Choice': {
 				'Dialog': 'a Let me ask you, what do you think of this drawing?',
@@ -323,172 +323,172 @@ monogatari.script({
 	],
 
 	'Scene-3': [
-		'show scene scene-3 with fadeIn',
+		'show scene scene-3',
 		'jump Scene-4',
 	],
 
 	'Scene-4': [
-		'show scene scene-4 with fadeIn',
+		'show scene scene-4',
 		'jump Scene-5',
 	],
 
 	'Scene-5': [
-		'show scene scene-5 with fadeIn',
+		'show scene scene-5',
 		'jump Scene-6',
 	],
 
 	'Scene-6': [
-		'show scene scene-6 with fadeIn',
+		'show scene scene-6',
 		'jump Scene-7',
 	],
 
 	'Scene-7': [
-		'show scene scene-7 with fadeIn',
+		'show scene scene-7',
 		'jump Scene-8',
 	],
 
 	'Scene-8': [
-		'show scene scene-8 with fadeIn',
+		'show scene scene-8',
 		'jump Scene-9',
 	],
 
 	'Scene-9': [
-		'show scene scene-9 with fadeIn',
+		'show scene scene-9',
 		'jump Scene-10',
 	],
 
 	'Scene-10': [
-		'show scene scene-10 with fadeIn',
+		'show scene scene-10',
 		'jump Scene-11',
 	],
 
 	'Scene-11': [
-		'show scene scene-11 with fadeIn',
+		'show scene scene-11',
 		'jump Scene-12',
 	],
 
 	'Scene-12': [
-		'show scene scene-12 with fadeIn',
+		'show scene scene-12',
 		'jump Scene-13',
 	],
 
 	'Scene-13': [
-		'show scene scene-13 with fadeIn',
+		'show scene scene-13',
 		'jump Scene-14',
 	],
 
 	'Scene-14': [
-		'show scene scene-14 with fadeIn',
+		'show scene scene-14',
 		'jump Scene-15',
 	],
 
 	'Scene-15': [
-		'show scene scene-15 with fadeIn',
+		'show scene scene-15',
 		'jump Scene-16',
 	],
 
 	'Scene-16': [
-		'show scene scene-16 with fadeIn',
+		'show scene scene-16',
 		'jump Scene-17',
 	],
 
 	'Scene-17': [
-		'show scene scene-17 with fadeIn',
+		'show scene scene-17',
 		'jump Scene-18',
 	],
 
 	'Scene-18': [
-		'show scene scene-18 with fadeIn',
+		'show scene scene-18',
 		'jump Scene-19',
 	],
 
 	'Scene-19': [
-		'show scene scene-19 with fadeIn',
+		'show scene scene-19',
 		'jump Scene-20',
 	],
 
 	'Scene-20': [
-		'show scene scene-20 with fadeIn',
+		'show scene scene-20',
 		'jump Scene-21',
 	],
 
 	'Scene-21': [
-		'show scene scene-21 with fadeIn',
+		'show scene scene-21',
 		'jump Scene-22',
 	],
 
 	'Scene-22': [
-		'show scene scene-22 with fadeIn',
+		'show scene scene-22',
 		'jump Scene-23',
 	],
 
 	'Scene-23': [
-		'show scene scene-23 with fadeIn',
+		'show scene scene-23',
 		'jump Scene-24',
 	],
 
 	'Scene-24': [
-		'show scene scene-24 with fadeIn',
+		'show scene scene-24',
 		'jump Scene-25',
 	],
 
 	'Scene-25': [
-		'show scene scene-25 with fadeIn',
+		'show scene scene-25',
 		'jump Scene-26',
 	],
 
 	'Scene-26': [
-		'show scene scene-26 with fadeIn',
+		'show scene scene-26',
 		'jump Scene-27',
 	],
 
 	'Scene-27': [
-		'show scene scene-27 with fadeIn',
+		'show scene scene-27',
 		'jump Scene-28',
 	],
 
 	'Scene-28': [
-		'show scene scene-28 with fadeIn',
+		'show scene scene-28',
 		'jump Scene-29',
 	],
 
 	'Scene-29': [
-		'show scene scene-29 with fadeIn',
+		'show scene scene-29',
 		'jump Scene-30',
 	],
 
 	'Scene-30': [
-		'show scene scene-30 with fadeIn',
+		'show scene scene-30',
 		'jump Scene-31',
 	],
 
 	'Scene-31': [
-		'show scene scene-31 with fadeIn',
+		'show scene scene-31',
 		'jump Scene-32',
 	],
 
 	'Scene-32': [
-		'show scene scene-32 with fadeIn',
+		'show scene scene-32',
 		'jump Scene-33',
 	],
 
 	'Scene-33': [
-		'show scene scene-33 with fadeIn',
+		'show scene scene-33',
 		'jump Scene-34',
 	],
 
 	'Scene-34': [
-		'show scene scene-34 with fadeIn',
+		'show scene scene-34',
 		'jump Scene-35',
 	],
 
 	'Scene-35': [
-		'show scene scene-35 with fadeIn',
+		'show scene scene-35',
 		'jump Scene-36',
 	],
 
 	'Scene-36': [
-		'show scene scene-36 with fadeIn',
+		'show scene scene-36',
 		'stop music main with fade 20',
 		'end'
 	],
