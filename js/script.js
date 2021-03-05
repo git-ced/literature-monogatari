@@ -121,98 +121,187 @@ monogatari.assets('images', {
 monogatari.script({
 	// The game starts here.
 	'Start': [
-		'show scene #E3BC9A with fadeIn',
-		'show notification Welcome',
-		{
-			'Input': {
-				'Text': 'What is your name?',
-				'Validation': function (input) {
-					return input.trim().length > 0;
-				},
-				'Save': function (input) {
-					this.storage({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a name!'
-			}
-		},
-		'c Hi {{player.name}} Welcome to a sample visual novel adaptation!',
-		{
-			'Input': {
-				'Text': 'What is your age?',
-				'Validation': function (input) {
-					return input.trim().length > 0;
-				},
-				'Save': function (input) {
-					this.storage({
-						player: {
-							age: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage({
-						player: {
-							age: ''
-						}
-					});
-				},
-				'Warning': 'You must enter an age!'
-			}
-		},
-		'c I see, {{player.name}}\'s age is {{player.age}} years old.',
-		{
-			'Choice': {
-				'Dialog': 'c Are you familiar with the controls for this game?',
-				'Yes': {
-					'Text': 'Yes',
-					'Do': 'jump Yes'
-				},
-				'No': {
-					'Text': 'No',
-					'Do': 'jump No'
-				}
-			}
-		}
+		'show scene #0E0A14 with fadeIn',
+		'jump Scene-1',
 	],
 
-	'Yes': [
-		'c Thats awesome!',
-		'c However, we have already compromised your system files!',
-		'vibrate 2000',
-		'c Your documents are scheduled to be deleted on March 1, 2021, at exactly 0:00:00!',
-		'c Send PHP 1.00 to +639274086304 to remove this and save your files.',
-
-		'show message Danger',
-		'c Have a nice day, at least!',
-		'end'
+	'Scene-1': [
+		'show scene scene-1 with fadeIn',
+		'jump Scene-2',
 	],
 
-	'No': [
+	'Scene-2': [
+		'show scene scene-2 with fadeIn',
+		'jump Scene-3',
+	],
 
-		'c You can do it now.',
-		'c Go ahead to the next step to view the basic controls!',
+	'Scene-3': [
+		'show scene scene-3 with fadeIn',
+		'jump Scene-4',
+	],
 
-		'c Unfortunately for you, we have already compromised your system files!',
-		'vibrate 2000',
-		'c Your documents are scheduled to be deleted on March 1, 2021, at exactly 0:00:00!',
-		'c Send PHP 1.00 to +639274086304 to remove this and save your files.',
+	'Scene-4': [
+		'show scene scene-4 with fadeIn',
+		'jump Scene-5',
+	],
 
-		'show message Danger',
+	'Scene-5': [
+		'show scene scene-5 with fadeIn',
+		'jump Scene-6',
+	],
 
-		'c Have a nice day, at least!',
+	'Scene-6': [
+		'show scene scene-6 with fadeIn',
+		'jump Scene-7',
+	],
+
+	'Scene-7': [
+		'show scene scene-7 with fadeIn',
+		'jump Scene-8',
+	],
+
+	'Scene-8': [
+		'show scene scene-8 with fadeIn',
+		'jump Scene-9',
+	],
+
+	'Scene-9': [
+		'show scene scene-9 with fadeIn',
+		'jump Scene-10',
+	],
+
+	'Scene-10': [
+		'show scene scene-10 with fadeIn',
+		'jump Scene-11',
+	],
+
+	'Scene-11': [
+		'show scene scene-11 with fadeIn',
+		'jump Scene-12',
+	],
+
+	'Scene-12': [
+		'show scene scene-12 with fadeIn',
+		'jump Scene-13',
+	],
+
+	'Scene-13': [
+		'show scene scene-13 with fadeIn',
+		'jump Scene-14',
+	],
+
+	'Scene-14': [
+		'show scene scene-14 with fadeIn',
+		'jump Scene-15',
+	],
+
+	'Scene-15': [
+		'show scene scene-15 with fadeIn',
+		'jump Scene-16',
+	],
+
+	'Scene-16': [
+		'show scene scene-16 with fadeIn',
+		'jump Scene-17',
+	],
+
+	'Scene-17': [
+		'show scene scene-17 with fadeIn',
+		'jump Scene-18',
+	],
+
+	'Scene-18': [
+		'show scene scene-18 with fadeIn',
+		'jump Scene-19',
+	],
+
+	'Scene-19': [
+		'show scene scene-19 with fadeIn',
+		'jump Scene-20',
+	],
+
+	'Scene-20': [
+		'show scene scene-20 with fadeIn',
+		'jump Scene-21',
+	],
+
+	'Scene-21': [
+		'show scene scene-21 with fadeIn',
+		'jump Scene-22',
+	],
+
+	'Scene-22': [
+		'show scene scene-22 with fadeIn',
+		'jump Scene-23',
+	],
+
+	'Scene-23': [
+		'show scene scene-23 with fadeIn',
+		'jump Scene-24',
+	],
+
+	'Scene-24': [
+		'show scene scene-24 with fadeIn',
+		'jump Scene-25',
+	],
+
+	'Scene-25': [
+		'show scene scene-25 with fadeIn',
+		'jump Scene-26',
+	],
+
+	'Scene-26': [
+		'show scene scene-26 with fadeIn',
+		'jump Scene-27',
+	],
+
+	'Scene-27': [
+		'show scene scene-27 with fadeIn',
+		'jump Scene-28',
+	],
+
+	'Scene-28': [
+		'show scene scene-28 with fadeIn',
+		'jump Scene-29',
+	],
+
+	'Scene-29': [
+		'show scene scene-29 with fadeIn',
+		'jump Scene-30',
+	],
+
+	'Scene-30': [
+		'show scene scene-30 with fadeIn',
+		'jump Scene-31',
+	],
+
+	'Scene-31': [
+		'show scene scene-31 with fadeIn',
+		'jump Scene-32',
+	],
+
+	'Scene-32': [
+		'show scene scene-32 with fadeIn',
+		'jump Scene-33',
+	],
+
+	'Scene-33': [
+		'show scene scene-33 with fadeIn',
+		'jump Scene-34',
+	],
+
+	'Scene-34': [
+		'show scene scene-34 with fadeIn',
+		'jump Scene-35',
+	],
+
+	'Scene-35': [
+		'show scene scene-35 with fadeIn',
+		'jump Scene-36',
+	],
+
+	'Scene-36': [
+		'show scene scene-36 with fadeIn',
 		'end'
-	]
+	],
 });
