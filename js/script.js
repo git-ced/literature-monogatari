@@ -394,6 +394,9 @@ monogatari.script({
 
 	'Scene-9': [
 		'show scene scene-9',
+		'a As I gained consciousness, it was just me, my plane, the sands, and a deep sea of silence.',
+		'a All of a sudden...',
+		'a A blue-eyed boy, with his hair soaked with gold, appeared in front of my mesmerized eyes.',
 		'jump Scene-10',
 	],
 
