@@ -439,6 +439,9 @@ monogatari.script({
 
 	'Scene-14': [
 		'show scene scene-14',
+		'l "There are two types of plant that would grow on my planet. A good one and a bad one."',
+		'l "Bad plants should be plucked out, as their roots could eventually destroy my small planet."',
+		'a I sort of agreed, as when I was a kid, I got fed up with negative emotions due to the constant pressure I receive from society.',
 		'jump Scene-15',
 	],
 
