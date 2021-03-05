@@ -537,6 +537,10 @@ monogatari.script({
 
 	'Scene-24': [
 		'show scene scene-24',
+		'a From what I am hearing from his story, the man is like a businessman.',
+		'a There are people in this world who only care about increasing the number of money they have in the bank.',
+		'a Store them and then what?',
+		'a For what purpose do those numbers represent if they are only kept for the sake of having them counted',
 		'jump Scene-25',
 	],
 
