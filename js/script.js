@@ -473,6 +473,9 @@ monogatari.script({
 
 	'Scene-17': [
 		'show scene scene-17',
+		'a He is right, most of the important things to the adult world consists of power, status, and money.',
+		'a Important things are only those who bring benefit to them.',
+		'a They don\'t see and appreciate the small details in the world.',
 		'jump Scene-18',
 	],
 
