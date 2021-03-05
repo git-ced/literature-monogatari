@@ -231,7 +231,7 @@ monogatari.assets('images', {
 monogatari.script({
 	// The game starts here.
 	'Start': [
-		'play music main with loop',
+		'play music main with loop fade 20 volume 50',
 		'show scene #0E0A14 with fadeIn',
 		'show particles fireflies',
 		'show notification Welcome',
@@ -457,7 +457,7 @@ monogatari.script({
 
 	'Scene-36': [
 		'show scene scene-36 with fadeIn',
-		'stop music main with fade 5',
+		'stop music main with fade 20',
 		'end'
 	],
 });
