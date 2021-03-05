@@ -633,6 +633,8 @@ monogatari.script({
 
 	'Scene-36': [
 		'show scene scene-36',
+		'a Because in similar scenarios in life, what’s really beautiful is invisible to the eyes of many...',
+		'a One that can only be seen by kids within their heart',
 		'stop music main with fade 20',
 		'end'
 	],
