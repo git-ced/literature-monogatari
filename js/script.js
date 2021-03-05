@@ -635,6 +635,16 @@ monogatari.script({
 		'show scene scene-36',
 		'a Because in similar scenarios in life, what’s really beautiful is invisible to the eyes of many...',
 		'a One that can only be seen by kids within their heart',
+		'jump End',
+	],
+
+	'End': [
+		'show scene #0E0A14',
+		'show particles fireflies',
+		'c Wonderful story isn\'t it?',
+		'c Unfortunately, every story has its own ending.',
+		'c You wan\'t more? Wait \'till we meet again!',
+		'c Goodbye {{player.name}}, have a nice day!',
 		'stop music main with fade 20',
 		'end'
 	],
