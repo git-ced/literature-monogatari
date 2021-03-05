@@ -583,6 +583,11 @@ monogatari.script({
 
 	'Scene-30': [
 		'show scene scene-30',
+		'l "You know what, to me, he was the least absurd of all those I met"',
+		'l "At the very least, that man doesn’t only think of himself, unlike the others"',
+		'a The lamp guy desired stability in his ever changing surrounding',
+		'a Although, the bad thing is...',
+		'a he forgets to take care of himself',
 		'jump Scene-31',
 	],
 
