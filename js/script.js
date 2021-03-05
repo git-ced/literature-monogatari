@@ -71,6 +71,10 @@ monogatari.characters({
 	'c': {
 		name: 'Chad',
 		color: '#5bcaff'
+	},
+	'l': {
+		name: 'Little Prince',
+		color: '#EE9737',
 	}
 });
 
