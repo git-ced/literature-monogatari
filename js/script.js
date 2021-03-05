@@ -282,6 +282,8 @@ monogatari.script({
 
 	'Scene-1': [
 		'show scene scene-1 with fadeIn',
+		'When I was still little, I believed that a snake can swallow a whole elephant.',
+		'Unbelievable right?',
 		'jump Scene-2',
 	],
 
