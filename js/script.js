@@ -617,6 +617,9 @@ monogatari.script({
 
 	'Scene-34': [
 		'show scene scene-34',
+		'a Many years had gone by then, I still haven’t heard news from him.',
+		'a I still believe that he left that morning, because his little body was nowhere to be seen.',
+		'a The moment I crashed in the Sahara Desert was the definitely the most memorable one to me',
 		'jump Scene-35',
 	],
 
