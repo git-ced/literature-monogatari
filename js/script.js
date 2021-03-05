@@ -567,6 +567,9 @@ monogatari.script({
 
 	'Scene-28': [
 		'show scene scene-28',
+		'g “The planet has become smaller, so the cycle of day and night became shorter, but I still have the same job to do.”',
+		'g "Even so, I’m still happy with what I’m doing..."',
+		'a Well to me, it sounded like he doesn’t have any time to rest',
 		'jump Scene-29',
 	],
 
