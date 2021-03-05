@@ -514,6 +514,9 @@ monogatari.script({
 
 	'Scene-21': [
 		'show scene scene-21',
+		'g “You must’ve admired me so much, don’t you?”',
+		'a “Wait what, I thought the clap was obligatory, bold of him to say that to you little prince”',
+		'l "Right? weird isn\'t it"',
 		'jump Scene-22',
 	],
 
