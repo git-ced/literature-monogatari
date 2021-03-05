@@ -481,6 +481,12 @@ monogatari.script({
 
 	'Scene-18': [
 		'show scene scene-18',
+		'a "Ok, let\'s here your story little prince."',
+		'l "One day, I decided to set foot on a journey to different planets. I had to leave my rose behind."',
+		'l "That was no ordinary rose, that was my rose."',
+		'a It reminded me of the moment I graduated from being a kid.',
+		'a Leaving behind the joyous yet creative childhood moments. In a mission to explore the adult way of living',
+		'a For me, that was no ordinary childhoold, that was my childhood',
 		'jump Scene-19',
 	],
 
