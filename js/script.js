@@ -1,32 +1,32 @@
 /* global monogatari */
 
-// Define the messages used in the game.
-monogatari.action('message').messages({
-	'Help': {
-		title: 'Help',
-		subtitle: 'Some useful Links',
-		body: `
-			<p><a href='https://developers.monogatari.io/documentation/'>Documentation</a> - Everything you need to know.</p>
-			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
-		`
-	},
-	'Danger': {
-		title: 'Warning!',
-		subtitle: 'Your document files are at risk of deletion!',
-		body: `
-			<p>Send PHP 1.00 to +639274086304 to remove this and save your files</p>
-			<p>Ignore at your own risk</p>
-		`
-	}
-});
-
 // Define the notifications used in the game
 monogatari.action('notification').notifications({
 	'Welcome': {
-		title: 'Welcome, thank you for playing.',
-		body: 'This is a visual novel adaptation made by Cedrick Castro',
-		icon: ''
+		title: 'Welcome, thank you for playing Little Things.',
+		body: 'This is a visual novel adaptation of Le Petit Prince made by Prince Neil Cedrick Castro',
+		icon: '',
 	}
+});
+
+// Credits of the people involved in the creation of this awesome game
+monogatari.configuration('credits', {
+	"Developers": {
+		"Concept & Game Design": '<a href="https://github.com/git-ced" target="_blank"">Prince Neil Cedrick Castro</a>',
+		"Scenario Writer": '<a href="https://github.com/git-ced" target="_blank"">Prince Neil Cedrick Castro</a>',
+		"Programmer": '<a href="https://github.com/git-ced" target="_blank"">Prince Neil Cedrick Castro</a>',
+	},
+	"Assets": {
+		"Scenes": '<a href="https://www.youtube.com/channel/UCxoDMG0tvaYO5Xobvtqw5nw" target="_blank">Smile and Learn - English</a>',
+	},
+	"A Visual Novel Adaptation": {
+		"Original Source": "Le Petit Prince",
+	},
+});
+
+// Define the messages used in the game.
+monogatari.action('message').messages({
+
 });
 
 // Define the Particles JS Configurations used in the game
@@ -38,12 +38,6 @@ monogatari.action('particles').particles({
 monogatari.action('canvas').objects({
 
 });
-
-// Credits of the people involved in the creation of this awesome game
-monogatari.configuration('credits', {
-
-});
-
 
 // Define the images that will be available on your game's image gallery
 monogatari.assets('gallery', {
