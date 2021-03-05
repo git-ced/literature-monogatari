@@ -625,6 +625,9 @@ monogatari.script({
 
 	'Scene-35': [
 		'show scene scene-35',
+		'a Even if it was an unfortunate event...',
+		'a The little prince taught me to not rush right away, but enjoy the sands, and the other little things to be seen.',
+		'a It might also be the time he disappeared from me, but starting that day, I never lost sight of the kid I have inside my heart.',
 		'jump Scene-36',
 	],
 
