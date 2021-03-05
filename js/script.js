@@ -560,6 +560,8 @@ monogatari.script({
 
 	'Scene-27': [
 		'show scene scene-27',
+		'l "At my last stop, I met a guy that would turn a lamp on and off depending on the time of the day"',
+		'l "He would turn on the lamp if it\'s nighttime, and turn it off at daytime"',
 		'jump Scene-28',
 	],
 
