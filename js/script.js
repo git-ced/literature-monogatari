@@ -540,12 +540,14 @@ monogatari.script({
 		'a From what I am hearing from his story, the man is like a businessman.',
 		'a There are people in this world who only care about increasing the number of money they have in the bank.',
 		'a Store them and then what?',
-		'a For what purpose do those numbers represent if they are only kept for the sake of having them counted',
+		'a "For what purpose do you think those numbers represent if they are only kept for the sake of having them counted"',
 		'jump Scene-25',
 	],
 
 	'Scene-25': [
 		'show scene scene-25',
+		'l “Haha, isn’t that pointless? I think you spend them for the pleasure of your own and others”',
+		'a "Yeah, should be. But don’t forget to save some as you might need it at unexpected times"',
 		'jump Scene-26',
 	],
 
