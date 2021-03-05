@@ -553,6 +553,8 @@ monogatari.script({
 
 	'Scene-26': [
 		'show scene scene-26',
+		'a At some point, I realized, “Wow, we sure do agree on a lot of things”.',
+		'a I bet we could be best friends if we met when I was still a child.',
 		'jump Scene-27',
 	],
 
