@@ -411,6 +411,9 @@ monogatari.script({
 
 	'Scene-11': [
 		'show scene scene-11',
+		'l "This is not it, could you please draw me more?"',
+		'a I guess he didn\'t like all of the lambs I drew...',
+		'a So, I just drew a box and plan to tell him that the lamb he wanted was in there',
 		'jump Scene-12',
 	],
 
