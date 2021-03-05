@@ -593,6 +593,9 @@ monogatari.script({
 
 	'Scene-31': [
 		'show scene scene-31',
+		'a After telling the story, the little prince fell asleep.',
+		'a I held him gently, treating him like a soft kid he was.',
+		'a He was probably the messiah that kept my sanity in this vast desert. An oasis, a treasure to be cherished.',
 		'jump Scene-32',
 	],
 
