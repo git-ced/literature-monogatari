@@ -601,6 +601,9 @@ monogatari.script({
 
 	'Scene-32': [
 		'show scene scene-32',
+		'a At a deeper thought, It was as if I’m looking at myself...',
+		'a The little prince resembles me and my experiences so much.',
+		'a Maybe he is me? just kidding, couldn\'t be',
 		'jump Scene-33',
 	],
 
