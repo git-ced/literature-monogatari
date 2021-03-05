@@ -231,6 +231,50 @@ monogatari.script({
 	// The game starts here.
 	'Start': [
 		'show scene #0E0A14 with fadeIn',
+		'show particles fireflies',
+		'show notification Welcome',
+		'c Hello there dear player!',
+		'c Allow me to welcome you again to Little Things!',
+		{
+			'Input': {
+				'Text': 'Before starting the game or the visual novel, would you please tell what we should call you?',
+				'Validation': function (input) {
+					return input.trim().length > 0;
+				},
+				'Save': function (input) {
+					this.characters({
+						'a': {
+							name: input,
+							color: '#5bffb2'
+						}
+					});
+
+					this.storage({
+						player: {
+							name: input,
+						}
+					});
+					return true;
+				},
+				'Revert': function () {
+					this.characters({
+						'a': {
+							name: 'Aviator',
+							color: '#5bffb2',
+						}
+					});
+
+					this.storage({
+						player: {
+							name: 'Aviator',
+						}
+					});
+				},
+				'Warning': 'You must enter a name!',
+			}
+		},
+		'c Ohh, what a wonderful name you have there! {{player.name}}.',
+		'a Yep, you said it right Chad!',
 		'jump Scene-1',
 	],
 
