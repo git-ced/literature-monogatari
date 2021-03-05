@@ -522,6 +522,9 @@ monogatari.script({
 
 	'Scene-22': [
 		'show scene scene-22',
+		'l "But, why would the guy want admiration from me?"',
+		'a "Because they want validation from others as they themselves don\’t know if they truly did something remarkable"',
+		'a They hope to get their status lifted from the validation and admiration of others.',
 		'jump Scene-23',
 	],
 
