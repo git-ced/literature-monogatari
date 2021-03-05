@@ -492,6 +492,12 @@ monogatari.script({
 
 	'Scene-19': [
 		'show scene scene-19',
+		'l "I met different kinds of people..."',
+		'l "All of them seem weird to me"',
+		'l "The first one that I met wished obedience and loyalty from me, he was the only person in his planet!"',
+		'a Ohh, so no one to govern on his lonely planet, he begged the prince to stay',
+		'l "I think it\'s ridiculous, so I continued on my journey"',
+		'a Perhaps, there are also people in my world who seek power yet gain nothing',
 		'jump Scene-20',
 	],
 
