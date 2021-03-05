@@ -324,6 +324,9 @@ monogatari.script({
 
 	'Scene-3': [
 		'show scene scene-3',
+		'a I can see big things from little details, only of which I could understand, or I at least I believe so.',
+		'a Why?',
+		'a Well, since when I was little, adults already set a standard upon me. They already have a laid out blueprint for my life',
 		'jump Scene-4',
 	],
 
