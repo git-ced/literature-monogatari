@@ -332,6 +332,8 @@ monogatari.script({
 
 	'Scene-4': [
 		'show scene scene-4',
+		'a They bound me to the chains of their ideals and expectations, one that was already decided by the society.',
+		'a I was told to study math, geography, and other stuff as they claimed that it was for my own good.',
 		'jump Scene-5',
 	],
 
