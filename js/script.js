@@ -353,7 +353,25 @@ monogatari.script({
 
 	'Scene-6': [
 		'show scene scene-6',
-		'jump Scene-7',
+		'a From up here, I can see the frustrations of the other people in their “adult life”.',
+		'a Doing paperwork, the same thing everyday...',
+		{
+			'Choice': {
+				'Dialog': 'a Do they like what they’re doing?',
+				'Yes': {
+					'Text': 'Yes',
+					'Do': 'jump Scene-7',
+				},
+				'No': {
+					'Text': 'No',
+					'Do': 'jump Scene-7',
+				},
+				'Maybe': {
+					'Text': 'Maybe',
+					'Do': 'jump Scene-7',
+				}
+			}
+		}
 	],
 
 	'Scene-7': [
