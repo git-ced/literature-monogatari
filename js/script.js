@@ -503,6 +503,8 @@ monogatari.script({
 
 	'Scene-20': [
 		'show scene scene-20',
+		'l "On the next planet, I met another mysterious person..."',
+		'l "He wanted me to applaud him all day long!"',
 		'jump Scene-21',
 	],
 
