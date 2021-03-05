@@ -430,6 +430,10 @@ monogatari.script({
 
 	'Scene-13': [
 		'show scene scene-13',
+		'l "I came from a small planet from far-away."',
+		'l "I always loved watching the sun set there."',
+		'a He knows how to appreciate little things in life...',
+		'a Might be an unbelievable story, but the kid in my heart went along with his imaginative background',
 		'jump Scene-14',
 	],
 
