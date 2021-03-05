@@ -402,6 +402,10 @@ monogatari.script({
 
 	'Scene-10': [
 		'show scene scene-10',
+		'a He’s like a little prince...',
+		'l Hey mister, could you draw me a lamb?',
+		'a I grabbed a notebook and a pen in my bag.',
+		'a I didn’t know what to do, so I drew 3 lambs.',
 		'jump Scene-11',
 	],
 
