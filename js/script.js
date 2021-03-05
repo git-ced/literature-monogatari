@@ -339,6 +339,11 @@ monogatari.script({
 
 	'Scene-5': [
 		'show scene scene-5',
+		'a I wanted to flow against this absurd way of living.',
+		'a Why would I have to fit in this kind of life?',
+		'a Shouldn’t I do what I want and live myself to the fullest?',
+		'a I want freedom, just like how I can fly through my imaginations.',
+		'a So then, I aspired to become an aviator...',
 		'jump Scene-6',
 	],
 
