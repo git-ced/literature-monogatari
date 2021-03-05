@@ -414,12 +414,17 @@ monogatari.script({
 		'show scene scene-11',
 		'l "This is not it, could you please draw me more?"',
 		'a I guess he didn\'t like all of the lambs I drew...',
-		'a So, I just drew a box and plan to tell him that the lamb he wanted was in there',
 		'jump Scene-12',
 	],
 
 	'Scene-12': [
 		'show scene scene-12',
+		'a So, I just drew a box and plan to tell him that the lamb he wanted was in there',
+		'l "Really? wow, I love it!"',
+		'a He happily smiled and stayed with me for a while.',
+		'a Out of curiosity, I wanted to know how he ended up in the middle of the desert...',
+		'a "Where did you come from little kid?"',
+		'l "I\'m not a little kid, I\'m a little prince!"',
 		'jump Scene-13',
 	],
 
