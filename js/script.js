@@ -17,6 +17,7 @@ monogatari.configuration('credits', {
 		"Programmer": '<a href="https://github.com/git-ced" target="_blank"">Prince Neil Cedrick Castro</a>',
 	},
 	"Assets": {
+		"Music": '<a href="https://open.spotify.com/album/0PAGr5a6MG58awBS9QREij" target="_blank">Chaos;Child OST - FAR DAYS</a>',
 		"Scenes": '<a href="https://www.youtube.com/channel/UCxoDMG0tvaYO5Xobvtqw5nw" target="_blank">Smile and Learn - English</a>',
 	},
 	"A Visual Novel Adaptation": {
