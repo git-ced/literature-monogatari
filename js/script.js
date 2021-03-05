@@ -24,6 +24,55 @@ monogatari.configuration('credits', {
 	},
 });
 
+// Define the backgrounds for each scene.
+monogatari.assets('scenes', {
+	'scene-1': '1.png',
+	'scene-2': '2.png',
+	'scene-3': '3.png',
+	'scene-4': '4.png',
+	'scene-5': '5.png',
+	'scene-6': '6.png',
+	'scene-7': '7.png',
+	'scene-8': '8.png',
+	'scene-9': '9.png',
+	'scene-10': '10.png',
+	'scene-11': '11.png',
+	'scene-12': '12.png',
+	'scene-13': '13.png',
+	'scene-14': '14.png',
+	'scene-15': '15.png',
+	'scene-16': '16.png',
+	'scene-17': '17.png',
+	'scene-18': '18.png',
+	'scene-19': '19.png',
+	'scene-20': '20.png',
+	'scene-21': '21.png',
+	'scene-21': '21.png',
+	'scene-22': '22.png',
+	'scene-23': '23.png',
+	'scene-24': '24.png',
+	'scene-25': '25.png',
+	'scene-26': '26.png',
+	'scene-27': '27.png',
+	'scene-28': '28.png',
+	'scene-29': '29.png',
+	'scene-30': '30.png',
+	'scene-31': '31.png',
+	'scene-32': '32.png',
+	'scene-33': '33.png',
+	'scene-34': '34.png',
+	'scene-35': '35.png',
+	'scene-36': '36.png',
+});
+
+// Define the Characters
+monogatari.characters({
+	'c': {
+		name: 'Chad',
+		color: '#5bcaff'
+	}
+});
+
 // Define the messages used in the game.
 monogatari.action('message').messages({
 
@@ -67,20 +116,6 @@ monogatari.assets('videos', {
 // Define the images used in the game.
 monogatari.assets('images', {
 
-});
-
-// Define the backgrounds for each scene.
-monogatari.assets('scenes', {
-
-});
-
-
-// Define the Characters
-monogatari.characters({
-	'c': {
-		name: 'Chad',
-		color: '#5bcaff'
-	}
 });
 
 monogatari.script({
