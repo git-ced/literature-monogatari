@@ -341,12 +341,12 @@ monogatari.script({
 	'Scene-4': [
 		'show scene scene-4',
 		'a They bound me to the chains of their ideals and expectations, one that was already decided by the society.',
-		'a I was told to study math, geography, and other stuff as they claimed that it was for my own good.',
 		'jump Scene-5',
 	],
 
 	'Scene-5': [
 		'show scene scene-5',
+		'a I was told to study math, geography, and other stuff as they claimed that it was for my own good.',
 		'a I wanted to flow against this absurd way of living.',
 		'a Why would I have to fit in this kind of life?',
 		'a Shouldn’t I do what I want and live myself to the fullest?',
@@ -480,12 +480,12 @@ monogatari.script({
 		'a He is right, most of the important things to the adult world consists of power, status, and money.',
 		'a Important things are only those who bring benefit to them.',
 		'a They don\'t see and appreciate the small details in the world.',
+		'a "Ok, let\'s here your story little prince."',
 		'jump Scene-18',
 	],
 
 	'Scene-18': [
 		'show scene scene-18',
-		'a "Ok, let\'s here your story little prince."',
 		'l "One day, I decided to set foot on a journey to different planets. I had to leave my rose behind."',
 		'l "That was no ordinary rose, that was my rose."',
 		'a It reminded me of the moment I graduated from being a kid.',
