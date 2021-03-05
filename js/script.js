@@ -447,6 +447,21 @@ monogatari.script({
 
 	'Scene-15': [
 		'show scene scene-15',
+		{
+			'Choice': {
+				'Dialog': 'l “Why do roses have thorns?”',
+				'Protect': {
+					'Text': 'To protect themselves from animals',
+					'Do': 'next'
+				},
+				'NoReason': {
+					'Text': 'I`m not sure...',
+					'Do': 'next'
+				}
+			}
+		},
+		'l "Its to protect themselves, even so, they are still harmed by animals"',
+		'a "Wait, wait, I think we should now focus on important stuffs. We are stranded here in the desert!',
 		'jump Scene-16',
 	],
 
