@@ -384,6 +384,11 @@ monogatari.script({
 
 	'Scene-8': [
 		'show scene scene-8',
+		'a As I traversed the Sahara Desert...',
+		'vibrate 200',
+		'a Hmm? what\'s that...',
+		'a Oh no! the plane engine broke',
+		'vibrate 200',
 		'jump Scene-9',
 	],
 
