@@ -467,6 +467,7 @@ monogatari.script({
 
 	'Scene-16': [
 		'show scene scene-16',
+		'l "But, roses\' thorns are also important. Don\'t you think so? They had it for millions of years, yet they are still harmed"',
 		'jump Scene-17',
 	],
 
