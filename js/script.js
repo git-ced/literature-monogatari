@@ -575,6 +575,9 @@ monogatari.script({
 
 	'Scene-29': [
 		'show scene scene-29',
+		'a There are also many like him on this planet of mine. People who are blinded by their duty or passion.',
+		'a To the point where they forgot to take care of themselves...',
+		'a Even if the circumstances change in the society, they are still expected to perform the same or with even better quality.',
 		'jump Scene-30',
 	],
 
