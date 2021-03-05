@@ -281,14 +281,44 @@ monogatari.script({
 	],
 
 	'Scene-1': [
+		'hide particles',
 		'show scene scene-1 with fadeIn',
-		'When I was still little, I believed that a snake can swallow a whole elephant.',
-		'Unbelievable right?',
+		'a When I was still little, I believed that a snake can swallow a whole elephant.',
+		'a Unbelievable right?',
 		'jump Scene-2',
 	],
 
 	'Scene-2': [
 		'show scene scene-2 with fadeIn',
+		{
+			'Choice': {
+				'Dialog': 'a Let me ask you, what do you think of this drawing?',
+				'Yes': {
+					'Text': 'A snake swallowing an elephant',
+					'Do': 'jump Scene-2-Snake'
+				},
+				'No': {
+					'Text': 'A wonderful hat',
+					'Do': 'jump Scene-2-Hat'
+				}
+			}
+		},
+	],
+
+	'Scene-2-Snake': [
+		'show scene scene-2',
+		'a Right isn\'t it?',
+		'a “It was a wonderful hat,” they said.',
+		'a All of them thought of the same thing. They wouldn\'t know.',
+		'a I had this vast sea of imaginations, one cannot find the end to it.',
+		'jump Scene-3',
+	],
+
+	'Scene-2-Hat': [
+		'show scene scene-2',
+		'a Well, nice try I guess.',
+		'a All of them thought of the same thing as you, but I think it\'s a snake swallowing a huge elephant!',
+		'a I had this vast sea of imaginations, one cannot find the end to it.',
 		'jump Scene-3',
 	],
 
