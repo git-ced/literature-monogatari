@@ -376,6 +376,9 @@ monogatari.script({
 
 	'Scene-7': [
 		'show scene scene-7',
+		'a I always believed that I am the weird one in this place where everyone is alike',
+		'a Even as I do my job as an aviator...',
+		'a I always tried to explore, looking outside the box and seek appreciation for little things.',
 		'jump Scene-8',
 	],
 
