@@ -10,7 +10,7 @@
 'use strict';
 /* global Monogatari */
 
-const monogatari  = Monogatari.default;
+const monogatari = Monogatari.default;
 
 monogatari.settings({
 
@@ -133,17 +133,17 @@ monogatari.settings({
 });
 
 // Initial Settings
-monogatari.preferences ({
+monogatari.preferences({
 
 	// Initial Language for Multilanguage Games or for the Default GUI Language.
 	'Language': 'English',
 
 	// Initial Volumes from 0.0 to 1.
 	'Volume': {
-		'Music': 1,
-		'Voice': 1,
-		'Sound': 1,
-		'Video': 1
+		'Music': 0.1,
+		'Voice': 0.1,
+		'Sound': 0.1,
+		'Video': 0.1
 	},
 
 	// Initial resolution used for Electron, it must match the settings inside

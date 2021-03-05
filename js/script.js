@@ -192,6 +192,11 @@ monogatari.action('particles').particles({
 	}
 });
 
+// Define the music used in the game.
+monogatari.assets('music', {
+	'main': 'far-days.mp3',
+});
+
 // Define the canvas objects used in the game
 monogatari.action('canvas').objects({
 
@@ -199,11 +204,6 @@ monogatari.action('canvas').objects({
 
 // Define the images that will be available on your game's image gallery
 monogatari.assets('gallery', {
-
-});
-
-// Define the music used in the game.
-monogatari.assets('music', {
 
 });
 
@@ -230,6 +230,7 @@ monogatari.assets('images', {
 monogatari.script({
 	// The game starts here.
 	'Start': [
+		'play music main with loop',
 		'show scene #0E0A14 with fadeIn',
 		'show particles fireflies',
 		'show notification Welcome',
@@ -455,6 +456,7 @@ monogatari.script({
 
 	'Scene-36': [
 		'show scene scene-36 with fadeIn',
+		'stop music main with fade 5',
 		'end'
 	],
 });
