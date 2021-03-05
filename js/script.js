@@ -609,6 +609,9 @@ monogatari.script({
 
 	'Scene-33': [
 		'show scene scene-33',
+		'a After I woke up the next morning, I couldn’t find my companion, the little prince',
+		'a He might’ve already left to set foot on another planet',
+		'a The story might not be real, it might be a dream, but I am convinced that he is like the kid in me',
 		'jump Scene-34',
 	],
 
